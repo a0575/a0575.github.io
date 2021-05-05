@@ -5,10 +5,10 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 permalink: ':title/'
 #baseurl: "/adam-blog" # the subpath of your site, e.g. /blog
-url: "http://ceshi.xixiaaijia.top" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings add your name
-author: Leach Chen
+author: 西峡爱家
 
 author-pic: leach-face.jpg
 about-author: I am an Android developer.I will add description latter.
@@ -31,10 +31,10 @@ juejin:
 csdn:
 
 # Newsletter
-mailchimp: # Add your MailChimp form identifier.
+mailchimp: # 表单标识符.
 
 # Disqus修改成你自己的
-discus_identifier: leach-chen
+discus_identifier: 这是什么
 # Add your discus identifier
 
 #intensedebate修改成你自己的
@@ -45,7 +45,7 @@ google-analysis:
 baidu-analysis:
 
 #youyan
-youyan-id: 2157296
+youyan-id: 
 
 # Paginate
 paginate: 18
@@ -65,7 +65,7 @@ imagepath: /blogdemo
 
 links:
   - name:         Home
-    url:          https://www.leachchen.com
+    url:          https://a0575.github.io
     external:     false
   - name:         About
     url:          /blogdemo/about
