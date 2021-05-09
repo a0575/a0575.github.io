@@ -1,31 +1,11 @@
----
-layout: home-page
----
-
-<!--<p>aaa:{{ site.posts | size }}</p>   </span>aa:{{ site.categories | size }}</span>
-{% assign year = 3 %}
-{% for category in site.categories %}
-	{% assign year = year | plus: 1 %}
-	<p>aaa:{{year}}</p>
-{% endfor %}
---> 
-{% assign count = 0 %}
-<ol class="post-card-box clearfix">
-  {% for post in paginator.posts %}
-
-   <!--{% if post.test1%}
-   {% assign count = count | plus: 1 %}
-	<p>aaa:{{count}}</p>
-   {% endif %}-->
-
-  <li>
-    <div class="post-card">
-
-      <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
-      </a>
-
-      <div class="post-card-body">
-		<div class="container" style="text-align:center;">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>爱家移门橱柜</title>
+</head>
+<body>
+  <div class="container" style="text-align:center;">
 	<h1>欢迎你的访问</h1>
 	<p>网站改版升级中... 给你带来不便，敬请谅解!</p>
   
@@ -35,8 +15,5 @@ layout: home-page
 <p>售后服务电话（微信）：15737700238</p>
 <p><br />客服电话工作时间为周一至周日 7:00-20:00，节假日不休息，<br />我们将随时为您献上真诚的服务。<br /><br />网站网址：www.xixiaaijia.cn</p>
 </div>
-
-    </div>
-  </li>
-  {% endfor %}
-</ol>
+</body>
+</html>
