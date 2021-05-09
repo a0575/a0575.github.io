@@ -1,14 +1,14 @@
-title: xixiaaijia
+title: 西峡爱家移门橱柜
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 permalink: ':title/'
 #baseurl: "/adam-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.xixiaaijia.cn" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings add your name
-author: 西峡爱家移门橱柜
+author: 爱家移门橱柜
 
 author-pic: leach-face.jpg
 about-author: I am an Android developer.I will add description latter.
@@ -102,19 +102,16 @@ links1:
     url:          /blogdemo/linyu
     type:         linyu
     external:     false
-  #- name:         随笔
-    #url:          /blogdemo/myblog/essays
-    #type:         essays
-    #external:     false
-  #- name:         Jekyll
-    #url:          /blogdemo/myblog/jekyll
-    #type:         jekyll
-    #external:     false
+  - name:         精品衣柜门
+    url:          /blogdemo/hejin/yigui
+    type:         yigui
+    external:     false
 
 blog_1:    chuwei
 blog_2:    mumen
 blog_3:    hejin
 blog_4:    linyu
+blog_5:    yigui
 
 
 
