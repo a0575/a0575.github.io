@@ -14,10 +14,8 @@ layout: home-page
   {% for post in paginator.posts %}
 
    <!--{% if post.test1%}
-
    {% assign count = count | plus: 1 %}
 	<p>aaa:{{count}}</p>
-
    {% endif %}-->
 
   <li>
@@ -27,16 +25,16 @@ layout: home-page
       </a>
 
       <div class="post-card-body">
-		<div class="post-card-stricp" >
-			<a href="{{post.url | prepend: site.baseurl}}" style="text-decoration: none; color: inherit;margin-right:20px;">{{ post.content | strip_html | strip_newlines | truncate: 100 }}</a>
-		</div>
-        {% for tag in post.tags %}
-        <!--<a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>-->
-		<a href="{{site.baseurl}}/tags#{{tag}}" class="tag">{{ tag }}&#32;</a>
-        {% endfor %}
-
-        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"><h3 class="post-card-title">{{post.title}}</h3></a>
-      </div>
+		<div class="container" style="text-align:center;">
+	<h1>欢迎你的访问</h1>
+	<p>网站改版升级中... 给你带来不便，敬请谅解!</p>
+  
+  
+  <p>联系我们</p>
+    <div class="content"> <p>地址：河南省西峡县农商路33号豫鄂陕农商大市场4号楼4-0131<br /><br />客服电话：<br /><span style="color: #d7d7d7;">--</span><br />售后服务电话（微信）：15937700575</p>
+<p>售后服务电话（微信）：15737700238</p>
+<p><br />客服电话工作时间为周一至周日 7:00-20:00，节假日不休息，<br />我们将随时为您献上真诚的服务。<br /><br />网站网址：www.xixiaaijia.cn</p>
+</div>
 
     </div>
   </li>
