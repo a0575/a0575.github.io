@@ -65,7 +65,7 @@ imagepath: /blogdemo
 
 links:
   - name:         首页
-    url:          https://www.xixiaaijia.com
+    url:          https://a0575.github.io
     external:     false
   - name:         联系我们
     url:          /blogdemo/About
