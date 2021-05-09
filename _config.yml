@@ -23,12 +23,13 @@ instagram: # Add your Instagram handle
 pinterest: # Add your Pinterest handle
 
 #修改成你自己的
-email:
-phone:
-github:
-jianshu:
-juejin:
-csdn:
+email: xixiaaijia@qq.com
+phone: +86 15937700575
+厨卫电器: /blogdemo/chuwei
+零醛木门: /blogdemo/mumen
+钛镁合金门: /blogdemo/hejin
+淋浴房&衣机机: blogdemo/linyu
+衣柜门专区: /blogdemo/hejin/yigui
 
 # Newsletter
 mailchimp: # 表单标识符.
@@ -67,18 +68,6 @@ links:
   - name:         首页
     url:          https://www.xixiaaijia.com
     external:     false
-  - name:         厨卫电器
-    url:          /blogdemo/chuwei
-    external:     false
-  - name:         零醛木门
-    url:          /blogdemo/mumen
-    external:     false
-  - name:         钛镁合金
-    url:          /blogdemo/hejin
-    external:     false
-  - name:         淋浴房&晾衣机
-    url:          /blogdemo/linyu
-    external:     false
   - name:         联系我们
     url:          /blogdemo/About
     external:     false
@@ -97,18 +86,35 @@ links1:
     url:          /blog
     type:         recent
     external:     false
-  - name:         随笔
-    url:          /blogdemo/myblog/essays
-    type:         essays
+  - name:         厨卫电器
+    url:          /blogdemo/chuwei
+    type:         chuwei
     external:     false
-  - name:         Jekyll
-    url:          /blogdemo/myblog/jekyll
-    type:         jekyll
+  - name:         零醛木门
+    url:          /blogdemo/mumen
+    type:         mumen
     external:     false
+  - name:         钛镁合金
+    url:          /blogdemo/hejin
+    type:         hejin
+    external:     false
+  - name:         淋浴房&晾衣机
+    url:          /blogdemo/linyu
+    type:         linyu
+    external:     false
+  #- name:         随笔
+    #url:          /blogdemo/myblog/essays
+    #type:         essays
+    #external:     false
+  #- name:         Jekyll
+    #url:          /blogdemo/myblog/jekyll
+    #type:         jekyll
+    #external:     false
 
-blog_1:    recent
-blog_2:    essays
-blog_3:    jekyll
+blog_1:    chuwei
+blog_2:    mumen
+blog_3:    hejin
+blog_4:    linyu
 
 
 
