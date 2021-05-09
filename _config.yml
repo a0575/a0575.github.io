@@ -8,7 +8,7 @@ permalink: ':title/'
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings add your name
-author: 西峡爱家
+author: 西峡爱家移门橱柜
 
 author-pic: leach-face.jpg
 about-author: I am an Android developer.I will add description latter.
@@ -64,11 +64,23 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 imagepath: /blogdemo
 
 links:
-  - name:         Home
-    url:          https://a0575.github.io
+  - name:         首页
+    url:          https://www.xixiaaijia.com
     external:     false
-  - name:         About
-    url:          /blogdemo/about
+  - name:         厨卫电器
+    url:          /blogdemo/chuwei
+    external:     false
+  - name:         零醛木门
+    url:          /blogdemo/mumen
+    external:     false
+  - name:         钛镁合金
+    url:          /blogdemo/hejin
+    external:     false
+  - name:         淋浴房&晾衣机
+    url:          /blogdemo/linyu
+    external:     false
+  - name:         联系我们
+    url:          /blogdemo/About
     external:     false
 
 #添加分类步骤：
